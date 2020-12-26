@@ -1,0 +1,158 @@
+
+ul {
+  list-style-type: none;;
+  margin: 0;
+  padding:5px;
+  overflow: hidden;
+
+   
+   height: 50px;
+    background: #FFFFFF;
+  animation: mymove  5s infinite;
+}
+@keyframes mymove {
+  from {background-color: #FF4500;}
+  to {background-color: #2c92d1;}
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  padding-top: 
+  background-color:     #708090;
+}
+
+li.HotelReservation {
+  display: inline-block;
+}
+
+.Hotel-Reservation {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(1,2,3,5);
+  z-index: 1;
+}
+
+.Hotel-Reservation a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.Hotel-Reservation a:hover {background-color: #f1f1f1;}
+
+.HotelReservation:hover .Hotel-Reservation {
+  display: block;
+}
+
+
+li.HotelReservation {
+  display: inline-block;
+}
+
+
+.Multiple-Hotel {
+  display: none;
+  position: absolute;
+  background-color: #00FFFF;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(2,2,3,05);
+  z-index: 1;
+}
+
+.Multiple-Hotel a {
+  color: #800000;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.Multiple-Hotel a:hover {background-color: #f1f1e2;}
+
+.MultipleHotel:hover .Multiple-Hotel {
+  display: block;
+
+}
+
+
+.room {
+  display: none;
+  position: absolute;
+  background-color: #00FFFF;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(2,2,3,05);
+  z-index: 1;
+}
+
+.room a {
+  color: #800000;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.room a:hover {background-color: #f1f1e2;}
+
+.Rooms:hover .room {
+  display: block;
+
+}
+  .booking {
+  display: none;
+  position: absolute;
+  background-color: #00FFFF;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(2,2,3,05);
+  z-index: 1;
+}
+
+.booking a {
+  color: #800000;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.booking a:hover {background-color: #f1f1e2;}
+
+.Booking:hover .booking {
+  display: block;
+
+}
+body 
+{
+  background-image: url('h7.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+.Slide{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.myS{
+		display: block;
+ 
+	width: 950px;
+	margin-left: 50px;
+	height:350px
+}
