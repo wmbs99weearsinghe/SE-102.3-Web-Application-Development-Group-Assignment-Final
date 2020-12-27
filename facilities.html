@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Facilities</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelir.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+
+   /* table:not(.room-features-block .room-features-inner) {color:red;}*/
+
+
+
+   ul {
+    list-style-type: none;;
+    margin: 0;
+    padding:5px;
+    overflow: hidden;
+
+
+    height: 50px;
+    background: #FFFFFF;
+    animation: mymove  5s infinite;
+  }
+
+  @keyframes mymove {
+    from {background-color: #FF4500;}
+    to {background-color: #2c92d1;}
+  }
+
+  li  {
+    float: left;
+  }
+
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover, .dropdown:hover .dropbtn {
+    padding-top: 
+    background-color:     #708090;
+  }
+
+  li.HotelReservation {
+    display: inline-block;
+  }
+
+  .Hotel-Reservation {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(1,2,3,5);
+    z-index: 1;
+  }
+
+  .Hotel-Reservation a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .Hotel-Reservation a:hover {background-color: #f1f1f1;}
+
+  .HotelReservation:hover .Hotel-Reservation {
+    display: block;
+  }
+
+
+  li.HotelReservation {
+    display: inline-block;
+  }
+
+
+  .Multiple-Hotel {
+    display: none;
+    position: absolute;
+    background-color: #00FFFF;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(2,2,3,05);
+    z-index: 1;
+  }
+
+  .Multiple-Hotel a {
+    color: #800000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .Multiple-Hotel a:hover {background-color: #f1f1e2;}
+
+  .MultipleHotel:hover .Multiple-Hotel {
+    display: block;
+
+  }
+
+
+  .room {
+    display: none;
+    position: absolute;
+    background-color: #00FFFF;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(2,2,3,05);
+    z-index: 1;
+  }
+
+  .room a {
+    color: #800000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .room a:hover {background-color: #f1f1e2;}
+
+  .Rooms:hover .room {
+    display: block;
+
+  }
+  .booking {
+    display: none;
+    position: absolute;
+    background-color: #00FFFF;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(2,2,3,05);
+    z-index: 1;
+  }
+
+  .booking a {
+    color: #800000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .booking a:hover {background-color: #f1f1e2;}
+
+  .Booking:hover .booking {
+    display: block;
+
+  }
+  body 
+  {
+
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+  }
+
+
+  .page-components{margin-top:2rem;}
+
+  .room-features-block{margin-bottom:5rem;}
+  .room-features-block h2{font-size:1.4375rem;font-weight:700;text-transform:uppercase;margin:0 0 2.5rem;}
+
+  .room-features-block .room-features-inner {border:solid 1px #9f9f9d;padding:2rem;}*/
+
+  .room-features-block .room-features-inner ulc{font-size:1.25rem;margin:0;padding:0;column-count:2;}*/
+  .room-features-block .room-features-inner ulc li{margin-bottom:1.25rem;list-style:none;position:relative;padding-left:2rem;}*/
+  .room-features-block .room-features-inner ulc li::before{content:"\f0da";position:absolute;display:block;left:0;font-family:"FontAwesome";color:#000;}*/
+
+
+
+</style>
+</head>
+<body>
+  <h1 style="Aldhabi"> Hotel Name</h1>
+  <ul>
+    <li><a href="Home.html">Home</a></li>
+    <li><a href="#AboutUs">About Us</a></li>
+    <li><a href="#ContactUs">Contact Us</a></li>
+    <li class="Rooms">
+     <a href="javascript:void(0)" class="Rooms">Room</a>
+     <div class="room">
+      <a href="#">Check</a>
+      <a href="javascript:void(0)" class="Booking">Booking</a>
+      <div class="booking">
+        <a href="#">Booking</a>
+      </div>
+    </div>
+  </li>
+  <li class="HotelReservation">
+    <a href="javascript:void(0)" class="HotelReservation">Hotel Reservation</a>
+    <div class="Hotel-Reservation">
+      <a href="#">Booking</a>
+    </div>
+  </li>
+  <li class="MultipleHotel">
+    <a href="javascript:void(0)" class="MultipleHotel">Multiple Hotel</a>
+    <div class="Multiple-Hotel">
+      <a href="gallery.html">Gallery</a>
+      <a href="facilities.html">Hotel Facilities</a>
+      <a href="map.html">Map</a>
+    </div>
+  </li>
+  <li><a href="login.html">Registation</a></li>
+</ul>
+
+
+<div style="height: 50px;"></div>
+
+<div class="row">
+ <div class="col-sm-3"> </div>
+ <div class="col-sm-6">  
+
+
+
+  <h1 class="wow fadeInUp">Facilities</h1>
+  <!--<h2 class="sub-title wow fadeInUp"></h2>-->
+
+
+  <div class="wow fadeInUp" data-wow-delay="0.2s">
+
+    <h2>Luxuries For Your Beachfront Home</h2>
+    <p>To complement your luxury accommodation at Sea Side South Park, our home of Sri Lankan hospitality features a variety of modern amenities to ensure your stay with us is both comfortable and memorable.</p>
+    <p>24-hour room service is available for every one of the Deluxe Rooms and Suites, along with the added pleasures of daily housekeeping and laundry services for complete luxury. To help you stay connected, free Wi-Fi is available throughout the premises while dedicated I.D.D., fax, and e-mail facilities can be provided at your desire. Postal facilities are also available, should you wish to opt for a more traditional form of communication in the form of a letter or even a parcel.</p>
+    <p>Our friendly associates are obliged to go above and beyond to accommodate your requests. With a left luggage facility, we will also look after your bags should you wish to venture beyond the premises for an extended period of time. </p>
+    <p>For a holistic wellness experience, our home of Sri Lankan hospitality not only has the luxury of a swimming pools, but also a fully equipped gym and blissful spa for experiences that let you wind down or work out.</p>
+
+  </div>
+
+  <!-- page-components -->
+  <div class="page-components" >                                         
+
+    <!-- features-block -->
+    <div class="room-features-block">
+      <h2>Features and Amenities</h2>
+      <div class="room-features-inner">
+        <ulc>          
+         <li>24-Hour Room Service</li><br>
+         <li>Free Wi-Fi</li><br>
+         <li>I.D.D., Fax and E-mail</li><br>
+         <li>Doctor On Call</li><br>         
+         <li>Laundry/Dry Cleaning</li><br>
+         <li>Daily Housekeeping</li><br>
+         <li>Postal Facilities</li><br>
+         <li>Left Luggage Facility</li><br>
+         <li>Wine Cellar</li><br>
+         <li>Daily Newspaper (On Request)</li><br>
+         <li>Swimming Pool</li><br>
+         <li>Gym</li><br>
+         <li>Spa</li><br>
+       </ulc>
+     </div>
+   </div>
+   <!-- /features-block -->
+ </div>  
+ <!-- /page-components -->
+</div>
+<div class="col-sm-3"> </div>
+</div>
+
+
+</body>
+</html>
