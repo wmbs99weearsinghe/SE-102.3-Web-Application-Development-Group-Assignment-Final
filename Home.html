@@ -1,164 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
 
-ul {
-  list-style-type: none;;
-  margin: 0;
-  padding:5px;
-  overflow: hidden;
-
-   
-   height: 50px;
-    background: #FFFFFF;
-  animation: mymove  5s infinite;
-}
-@keyframes mymove {
-  from {background-color: #FF4500;}
-  to {background-color: #2c92d1;}
-}
-
-li {
-  float: left;
-}
-
-li a, .dropbtn {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover, .dropdown:hover .dropbtn {
-  padding-top: 
-  background-color:     #708090;
-}
-
-li.HotelReservation {
-  display: inline-block;
-}
-
-.Hotel-Reservation {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(1,2,3,5);
-  z-index: 1;
-}
-
-.Hotel-Reservation a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.Hotel-Reservation a:hover {background-color: #f1f1f1;}
-
-.HotelReservation:hover .Hotel-Reservation {
-  display: block;
-}
+<link rel="stylesheet" href="Home.css">  
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 
-li.HotelReservation {
-  display: inline-block;
-}
-
-
-.Multiple-Hotel {
-  display: none;
-  position: absolute;
-  background-color: #00FFFF;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(2,2,3,05);
-  z-index: 1;
-}
-
-.Multiple-Hotel a {
-  color: #800000;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.Multiple-Hotel a:hover {background-color: #f1f1e2;}
-
-.MultipleHotel:hover .Multiple-Hotel {
-  display: block;
-
-}
-
-
-.room {
-  display: none;
-  position: absolute;
-  background-color: #00FFFF;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(2,2,3,05);
-  z-index: 1;
-}
-
-.room a {
-  color: #800000;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.room a:hover {background-color: #f1f1e2;}
-
-.Rooms:hover .room {
-  display: block;
-
-}
-  .booking {
-  display: none;
-  position: absolute;
-  background-color: #00FFFF;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(2,2,3,05);
-  z-index: 1;
-}
-
-.booking a {
-  color: #800000;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.booking a:hover {background-color: #f1f1e2;}
-
-.Booking:hover .booking {
-  display: block;
-
-}
-body 
-{
-  background-image: url('h7.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed; 
-  background-size: 100% 100%;
-}
-</style>
 </head>
 <body>
 <h1 style="Aldhabi"> Hotel Name</h1>
 <ul>
-  <li><a href="#Home">Home</a></li>
+  <li><a href="Home.html">Home</a></li>
   <li><a href="#AboutUs">About Us</a></li>
   <li><a href="#ContactUs">Contact Us</a></li>
    <li class="Rooms">
    <a href="javascript:void(0)" class="Rooms">Room</a>
     <div class="room">
-      <a href="#">Check</a>
+      <a href="checkform.html">Check</a>
      <a href="javascript:void(0)" class="Booking">Booking</a>
       <div class="booking">
       <a href="#">Booking</a>
@@ -174,19 +32,42 @@ body
   <li class="MultipleHotel">
     <a href="javascript:void(0)" class="MultipleHotel">Multiple Hotel</a>
     <div class="Multiple-Hotel">
-      <a href="#">View Photo Gallary</a>
-      <a href="#">Holtel Facilities</a>
-      <a href="#">Map</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="facilities.html">Hotel Facilities</a>
+      <a href="map.html">Map</a>
     </div>
   </li>
-  <li><a href="#Registation">Registation</a></li>
+  <li><a href="login.html">Registation</a></li>
 </ul>
 
 <div class="w3-row-padding" id="about">
     <div class="w3-col l4 12">
-      <h3>About</h3>
-      <h6>Our hotel is one of a kind. It is truely amazing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h6>
+      
     <p>We accept: <i class="fa fa-credit-card w3-large"></i> <i class="fa fa-cc-mastercard w3-large"></i> <i class="fa fa-cc-amex w3-large"></i> <i class="fa fa-cc-cc-visa w3-large"></i><i class="fa fa-cc-paypal w3-large"></i></p>
+
+
+   <div class="Slide" style="max-width:500px">
+  <img class="myS" src="h1.jpg">
+  <img class="myS" src="h2.jpg">
+  <img class="myS" src="h3.jpg">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("myS");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); 
+}
+</script>
     </div>
 
 </body>
