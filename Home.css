@@ -39,7 +39,7 @@ li.HotelReservation {
 .Hotel-Reservation {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color:#00FFFF;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(1,2,3,5);
   z-index: 1;
