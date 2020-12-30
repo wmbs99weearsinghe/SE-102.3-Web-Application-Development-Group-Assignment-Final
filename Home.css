@@ -4,8 +4,8 @@ ul {
   margin: 0;
   padding:5px;
   overflow: hidden;
-
-   
+    width: 100%;
+   display: inline-table;
    height: 50px;
     background: #FFFFFF;
   animation: mymove  5s infinite;
