@@ -115,7 +115,7 @@ if( isset($_POST['btnreset'])){
   <div style="background-color: #3598dc; ">
    <div style="height: 20px;"></div>
    <div class="login-form">
-    <h1>Hotel Ocean Hill</h1>
+    <h1>Sea Side South Park</h1>
     <form action=" " method="post" class="needs-validation" novalidate>
       <h3 class="text-center">Password Reset</h3>  
       
