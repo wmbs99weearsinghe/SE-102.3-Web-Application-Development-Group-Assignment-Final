@@ -102,6 +102,10 @@ if( isset($_POST['btnlogin'])){
     .login-form form a:hover {
       text-decoration: underline;
     }
+    
+    #hotel_name{
+      color: #A9F5E1;
+    }
 
 
   </style>
@@ -134,7 +138,7 @@ if( isset($_POST['btnlogin'])){
   <div style="background-color: #3598dc; ">
    <div style="height: 20px;"></div>
    <div class="login-form">
-    <h1>Sea Side South Park</h1>
+    <h1 id="hotel_name">Sea Side South Park</h1>
     <form action=" " method="post" class="needs-validation" novalidate>
       <h2 class="text-center">Login</h2> 
 
