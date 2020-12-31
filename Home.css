@@ -1,5 +1,5 @@
 #hotel-name{
-  color: #A9F5E1;
+  color: Blue;
 }
 ul {
   list-style-type: none;
@@ -140,7 +140,9 @@ li.HotelReservation {
 }
 body 
 {
- 
+
+  background-image: url('body.jpg');
+
   background-repeat: no-repeat;
   background-attachment: fixed; 
   background-size: 100% 100%;
